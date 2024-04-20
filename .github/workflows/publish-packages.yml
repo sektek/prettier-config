@@ -1,13 +1,11 @@
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 
-name: Node.js Package
+name: Publish Packages
 
 on:
   release:
-    types:
-      - created
-      - published
-      - released
+    types: [created, published, released]
+  workflow_dispatch:
 
 jobs:
   build:
