@@ -10,6 +10,7 @@
     "prettier": "^3.1.1"
   },
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "semantic-release": "^23.0.8"
   }
 }
