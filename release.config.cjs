@@ -12,12 +12,7 @@ module.exports = {
         npmPublish: false,
       },
     ],
-    [
-      '@semantic-release/github',
-      {
-        draftRelease: true,
-      },
-    ],
     '@semantic-release/git',
+    '@semantic-release/github',
   ],
 };
