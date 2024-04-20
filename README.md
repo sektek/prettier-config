@@ -1,6 +1,6 @@
 # @sektek/prettier-config
 
-Prettier config to be shared across `@sektek` projects.
+Prettier config used for @sektek projects.
 
 ## Installation
 
