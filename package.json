@@ -1,6 +1,6 @@
 {
   "name": "@sektek/prettier-config",
-  "version": "1.0.1",
+  "version": "0.0.0",
   "description": "Prettier config used for @sektek projects",
   "author": "Edward Kelly <eddie@sektek.net>",
   "license": "MIT",
