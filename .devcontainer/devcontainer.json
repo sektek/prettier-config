@@ -1,12 +1,7 @@
 {
   "name": "@sektek/prettier-config",
-  "image": "mcr.microsoft.com/devcontainers/typescript-node:20-bookworm",
-  "features": {
-		"ghcr.io/devcontainers/features/common-utils:2": {
-      "configureZshAsDefaultShell": true
-    },
-    "ghcr.io/devcontainers/features/github-cli:1": {}
-	},
+  "image": "sektek/devcontainer-base",
+  "features": {},
   "customizations": {
     "vscode": {
       "settings": {
@@ -22,9 +17,7 @@
         "GitHub.vscode-pull-request-github",
         "github.vscode-github-actions",
         "hbenl.vscode-mocha-test-adapter",
-        "ryanluker.vscode-coverage-gutters",
-				"VisualStudioExptTeam.vscodeintellicode",
-				"VisualStudioExptTeam.intellicode-api-usage-examples"
+        "ryanluker.vscode-coverage-gutters"
 			]
     }
   }
