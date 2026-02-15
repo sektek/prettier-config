@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
@@ -14,4 +14,4 @@ module.exports = {
   endOfLine: 'lf',
   embeddedLanguageFormatting: 'auto',
   arrowParens: 'avoid',
-}
+};

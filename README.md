@@ -10,8 +10,10 @@ npm install --save-dev prettier @sektek/prettier-config
 
 ## Setup
 
-Create a `.prettier.js` in the root of your project with the following:
+Create a `.prettierrc.js` in the root of your project with the following:
 
 ```javascript
-module.exports = require('@sektek/prettier-config');
+import prettierConfig from '@sektek/prettier-config';
+
+export default prettierConfig;
 ```
